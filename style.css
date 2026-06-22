@@ -38,14 +38,6 @@ body {
     background: black;
     color:white;
 }
-.bem {
-    display: flex;
-    justify-content: center;
-}
-
-.bem p{
-    padding-left: 10px;
-    padding-right: 10px;
 }
 .Contacts{
     align-items: center;
@@ -56,4 +48,13 @@ body {
 .Contacts img{
     height: 25px;
     width: 25px;
+}
+.bem {
+    display: flex;
+    justify-content: center;
+}
+
+.bem p{
+    padding-left: 10px;
+    padding-right: 10px;
 }
