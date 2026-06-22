@@ -1,10 +1,40 @@
 .box {
     width:150px;
-    height:100px;
     color:white;
     display:flex;
     align-items:center;
     justify-content: center;
     border-radius:  10px;
     position: absolute;
+    background: rgb(61, 57, 57);
+    height:fit-content;
+    flex-direction: column;
+}
+.avatar {
+    top:5vh;
+    left:20vw;
+
+    width:20vw;
+    height:39vh;
+}
+.name {
+    top:5vh;
+    right: 20vw;
+
+    width:38vw;
+    height: 39vh;
+}
+.center{
+    top:48%;
+    left:50%;
+    transform: translate(-50%,0%);
+    width: 60vw;
+}
+body {
+    background: rgb(100, 114, 119);
+    color:black
+}
+.dark {
+    background: black;
+    color:white;
 }
