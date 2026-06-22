@@ -38,3 +38,22 @@ body {
     background: black;
     color:white;
 }
+.bem {
+    display: flex;
+    justify-content: center;
+}
+
+.bem p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Contacts{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Contacts img{
+    height: 50px;
+    width: 50px;
+}
